@@ -1,0 +1,24 @@
+.block {
+  float: left;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  color: cadetblue;
+}
+
+.color1 {
+  background-color: #A987C0;
+}
+
+.color2 {
+  background-color: #C7D8C6;
+}
+
+.color3 {
+  background-color: #EFD9C1;
+}
+
+.color4 {
+  background-color: #CCC8C6;
+}

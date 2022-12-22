@@ -1,0 +1,11 @@
+<p>用 Directive 作为 AOP去观察</p>
+<input type="text" id="new_name" [(ngModel)]="newName" />
+<button (click)="action1()">Add a div</button>
+<button (click)="action2()">Reset all</button>
+
+
+<div class="info">
+  <p *ngFor="let name of names" appDirective1>
+    {{name}}
+  </p>
+</div>

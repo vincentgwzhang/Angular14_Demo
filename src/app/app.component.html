@@ -1,14 +1,24 @@
-<div class="container">
-  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
-    Popover on top
-  </button>
-  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
-    Popover on right
-  </button>
-  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-    Popover on bottom
-  </button>
-  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
-    Popover on left
-  </button>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="block color1"><a href="/lifecyclestudy" >LifeCycle Study</a></div>
+      <div class="block color1"><a href="/directive1" >Directive Demo 1</a></div>
+      <div class="block color1"><a href="/inputdemo1" >Input Demo 1</a></div>
+      <div class="block color4">abc4</div>
+      <div class="block color1">abc5</div>
+      <div class="block color2">abc6</div>
+      <div class="block color3">abc7</div>
+      <div class="block color4">abc8</div>
+      <div class="block color1">abc9</div>
+      <div class="block color2">abc10</div>
+      <div class="block color3">abc11</div>
+      <div class="block color4">abc12</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="row p-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
