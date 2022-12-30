@@ -1,0 +1,5 @@
+<p *ngIf="received">Receiver {{receiver}} received mission {{mission}}</p>
+<div *ngIf="received">
+  <button type="button" (click)="confirm()" [disabled]="confirmed">Confirm mission</button>
+</div>
+<p *ngIf="!received">Receiver {{receiver}} do not has mission</p>

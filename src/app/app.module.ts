@@ -9,6 +9,8 @@ import { Directive1Directive } from './componentstudy/directive1.directive';
 import {FormsModule} from "@angular/forms";
 import { InputDemo1Component } from './componentstudy/input-demo1/input-demo1.component';
 import { SubcomponentComponent } from './componentstudy/InputDemo1/subcomponent/subcomponent.component';
+import { SubjectObserveDemoComponent } from './componentstudy/subject-observe-demo/subject-observe-demo.component';
+import { MissionReceiverComponent } from './componentstudy/mission-receiver/mission-receiver.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SubcomponentComponent } from './componentstudy/InputDemo1/subcomponent/
     Directive1DemoComponent,
     Directive1Directive,
     InputDemo1Component,
-    SubcomponentComponent
+    SubcomponentComponent,
+    SubjectObserveDemoComponent,
+    MissionReceiverComponent
   ],
     imports: [
         BrowserModule,

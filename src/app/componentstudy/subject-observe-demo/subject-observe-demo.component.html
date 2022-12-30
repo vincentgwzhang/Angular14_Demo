@@ -1,0 +1,4 @@
+<h2>A demo to let child notify parent by using subject and observe concept</h2>
+<button type="button" (click)="announce()">Announce mission</button>
+
+<app-mission-receiver *ngFor="let astronaut of astronauts" [receiver]="astronaut"></app-mission-receiver>
