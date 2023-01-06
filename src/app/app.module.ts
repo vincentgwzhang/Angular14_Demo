@@ -11,6 +11,7 @@ import { InputDemo1Component } from './componentstudy/input-demo1/input-demo1.co
 import { SubcomponentComponent } from './componentstudy/InputDemo1/subcomponent/subcomponent.component';
 import { SubjectObserveDemoComponent } from './componentstudy/subject-observe-demo/subject-observe-demo.component';
 import { MissionReceiverComponent } from './componentstudy/mission-receiver/mission-receiver.component';
+import { EventStudyComponent } from './componentstudy/event-study/event-study.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MissionReceiverComponent } from './componentstudy/mission-receiver/miss
     InputDemo1Component,
     SubcomponentComponent,
     SubjectObserveDemoComponent,
-    MissionReceiverComponent
+    MissionReceiverComponent,
+    EventStudyComponent
   ],
     imports: [
         BrowserModule,
