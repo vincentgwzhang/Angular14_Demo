@@ -12,6 +12,9 @@ import { SubcomponentComponent } from './componentstudy/InputDemo1/subcomponent/
 import { SubjectObserveDemoComponent } from './componentstudy/subject-observe-demo/subject-observe-demo.component';
 import { MissionReceiverComponent } from './componentstudy/mission-receiver/mission-receiver.component';
 import { EventStudyComponent } from './componentstudy/event-study/event-study.component';
+import { BuildinComponent } from './directives/buildin/buildin.component';
+import { HighlightComponent } from './directives/highlight/highlight.component';
+import { DhighlightDirective } from './directives/dhighlight.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { EventStudyComponent } from './componentstudy/event-study/event-study.co
     SubcomponentComponent,
     SubjectObserveDemoComponent,
     MissionReceiverComponent,
-    EventStudyComponent
+    EventStudyComponent,
+    BuildinComponent,
+    HighlightComponent,
+    DhighlightDirective
   ],
     imports: [
         BrowserModule,

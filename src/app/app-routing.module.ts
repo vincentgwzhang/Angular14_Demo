@@ -5,6 +5,8 @@ import { Directive1DemoComponent } from './componentstudy/directive1-demo/direct
 import {InputDemo1Component} from "./componentstudy/input-demo1/input-demo1.component";
 import {SubjectObserveDemoComponent} from "./componentstudy/subject-observe-demo/subject-observe-demo.component";
 import {EventStudyComponent} from "./componentstudy/event-study/event-study.component";
+import {BuildinComponent} from "./directives/buildin/buildin.component";
+import {HighlightComponent} from "./directives/highlight/highlight.component";
 
 const routes: Routes = [
   { path: 'lifecyclestudy', component: LifecyclestudyComponent },
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'inputdemo1', component: InputDemo1Component },
   { path: 'subjectobservestudy', component: SubjectObserveDemoComponent },
   { path: 'eventStudy', component: EventStudyComponent },
+  { path: 'buildinstudy', component: BuildinComponent },
+  { path: 'highlightstudy', component: HighlightComponent },
 ];
 
 @NgModule({

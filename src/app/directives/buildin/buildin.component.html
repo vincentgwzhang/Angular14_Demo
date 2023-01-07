@@ -1,0 +1,8 @@
+<p [ngClass]="'textred'">What color am i? Example 1</p>
+<p [ngClass]="'textgreen'">What color am i? Example 2</p>
+<p [ngClass]="isRed? 'textred': 'textgreen'">What color am i? Example 3</p>
+
+<div>
+  <button (click)="toggleColor()">Click me</button>
+</div>
+<p [ngClass]="pClassVar">What color am i? Example 4</p>
